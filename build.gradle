@@ -1,0 +1,15 @@
+apply plugin: 'java' 
+repositories {
+   jcenter()
+}
+
+dependencies {
+   compile 'org.reflections:reflections:0.9.11'
+	// https://mvnrepository.com/artifact/org.springframework/spring-core
+	compile group: 'org.springframework', name: 'spring-context', version: '4.3.10.RELEASE'
+	// https://mvnrepository.com/artifact/javax.mail/mail
+	compile group: 'javax.mail', name: 'mail', version: '1.4.7'
+	testCompile 'junit:junit:4.12'
+	
+	
+}
